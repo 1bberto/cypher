@@ -131,7 +131,7 @@ public class LinkedList<T> where T : struct
         Head.Previous = Tail;
     }
 
-    //Producar Primeiro nó com valor igual na lista
+    //Procurar Primeiro nó com valor igual a value na lista
     public LinkedListNode<T> FindItem(T value)
     {
         var internalCounter = 0;
