@@ -10,7 +10,7 @@ namespace ConsoleApp1
 
             Console.WriteLine($"Encrypting VTAOG -> {cipher.Encrypt("VTAOG", 2)}");
 
-            Console.WriteLine($"Decrypting TRYME -> {cipher.Decrypt("TRYME", 2)}");
+            Console.WriteLine($"Decrypting JULUDI -> {cipher.Decrypt("JULUDI", 2)}");
 
             Console.ReadKey();
         }
